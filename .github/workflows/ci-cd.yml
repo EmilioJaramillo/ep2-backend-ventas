@@ -23,4 +23,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ep2-backend-ventas:latest
+          # Escribimos el usuario manualmente para evitar el error de formato
+          tags: emiliojaramillo/ep2-backend-ventas:latest
